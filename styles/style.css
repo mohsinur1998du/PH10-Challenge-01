@@ -68,20 +68,103 @@
 }
 
 .about-web-dev {
-    text-align: center;
     width: 852px;
     height: 113px;
-    margin: 119px auto 32px;
+    margin: 119px auto 100px;
 }
 
 .about-web-dev > h3 {
     font-size: 32px;
     font-weight: 800px;
     margin-bottom: 24px;
+    text-align: center;
 }
 
 .about-web-dev > p {
     font-size: 16px;
     color: rgba(13, 19, 33, 0.7);
+    text-align: center;
 }
 
+.btn-primary {
+    padding: 12px 20px;
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 700px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border-width: 1px solid;
+    text-align: center;
+}
+
+
+.dev-container {
+    display: flex;
+    width: 850px;
+    height: 236px;
+    margin: 0 auto 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.container-txt1 {
+    width: 477px;
+    height: 219px;
+    padding: 20px;
+    position: center right;
+    opacity: 0.7;
+}
+
+.container-img1 {
+    width: 274px;
+    height: 240px;
+    position: center left;
+    margin-top: 16px;
+}
+
+.container-img2 {
+    position: left center;
+    margin-top: 16px;
+}
+
+.container-txt3 {
+    position: center;
+    opacity: 0.7;
+    margin-top: 16px;
+}
+
+.container-img3 {
+    position: right center;
+}
+
+.container-txt3 {
+    position: left center;
+    opacity: 0.7;
+}
+
+
+
+/* Inspiration Section Styles */
+
+.inspiration {
+    text-align: center;
+}
+
+.inspiration-title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.inspiration-description {
+    font-size: 16px;
+    opacity: 0.7;
+    width: 852px;
+    height: 52px;
+    margin: 0 auto 48px;
+}
+
+.inspiration-video {
+    margin-bottom: 151px;
+}
