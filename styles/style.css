@@ -46,12 +46,13 @@
     margin-right: 598px;
 }
 
-.btn {
+.btn, .btn > a {
     background-color: #0D1321;
     color: #FFFFFF;
     padding: 21px 24px;
     border-radius: 8px;
     text-align: center;
+    text-decoration: none;
 }
 
 
